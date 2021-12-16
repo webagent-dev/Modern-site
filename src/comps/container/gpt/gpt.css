@@ -1,0 +1,94 @@
+.gpt__container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--color-footer);
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgb(29, 33, 39) 100%);
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgb(34, 41, 51) 100%);
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgb(20, 24, 29) 100%);
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4,12,24,1) 100%);
+    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgb(3, 37, 88) 100%);
+    filter: drop-shadow(0px 4px 4px rgb(95, 125, 172) 100%);
+    width: 80%;
+    margin: 0 auto;
+}
+.gpt__heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0 2rem;
+    align-items: center;
+}
+.gpt__heading > h1{
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 43px;
+    max-width: 510px;
+    font-family: var(--font-family);
+}
+.gpt__heading > p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+.gpt__wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    gap: 2rem;
+}
+
+.gpt__wrapper > h2{
+flex: 1;
+width: 80%;
+font-size: 10px;
+color: var(--color-text);
+
+font-weight: 700;
+}
+.gpt__wrapper > .gpt__feature__wrapper{
+    margin: 0;
+}
+.gpt__feature__wrapper{
+    max-width:100%;
+    display: flex;
+    /* gap:1rem; */
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+    .gpt__container{
+        width: 100%;
+        
+    }
+    .gpt__heading{
+        margin: 2rem 0 1rem;                                 
+    }
+    .gpt__heading > h1{
+        font-size: 20px;
+        line-height: 25px;
+        max-width: 250px;
+       
+    }
+    .gpt__heading > p{
+        font-size: 13px;
+        line-height: 15px;
+        margin-left: 2rem;
+    }
+    .gpt__wrapper{
+        gap: .5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gpt__container{
+        padding: .5rem;
+    }
+    .gpt__feature__wrapper{
+        flex-direction: column;
+    }
+
+}

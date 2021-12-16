@@ -1,0 +1,129 @@
+.footer__container{
+    border: 1px solid white;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-footer);
+}
+.footer__header{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.footer__header > h1{
+    font-size: 42px;
+    line-height: 72px;
+    font-family: var(--font-family);
+    letter-spacing: 0.2em;
+    font-weight: 800;
+}
+.footer__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 1rem;
+    margin-bottom: 8rem;
+    cursor: pointer;
+}
+
+.footer__btn > p{
+    /* border: 1px solid white; */
+    box-sizing: border-box; 
+    line-height: 21px;
+    font-size: 18px; 
+    font-family: var(--font-family);
+    word-spacing: 2px;
+}
+.footer__content{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer__logo{
+    width: 250px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.footer__logo > img{
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+.footer__logo > p{
+    font-size: 12px;
+    line-height: 14px;
+    font-family: var(--font-family);
+}
+.footer__other{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.footer__other > h4{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: var(--font-family);
+    margin-bottom: 1rem;
+}
+.footer__other > p{
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0.5rem 0;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.footer__last__child{
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+.footer__last__child > p{
+    font-size: 12px;
+    line-height: 14px;
+    font-family: var(--font-family);
+}
+
+
+@media screen and  (max-width: 850px){
+    .footer__header > h1{
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: 0.1em;
+    }
+    .footer__logo{
+       
+        margin: 1rem 0;
+        
+    }
+    .footer__btn > p{
+        /* border: 1px solid white; */
+        line-height: 18px;
+        font-size: 12px; 
+    }
+    .footer__btn{
+        margin-bottom: 6rem;
+        
+    }
+}
+
+@media screen and  (max-width: 550px){
+    .footer__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__logo{
+        align-items: center;
+    }
+    .footer__btn{
+        margin-bottom: 4rem;
+        
+    }
+}

@@ -1,0 +1,122 @@
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+    align-items: center;
+}
+.navbar__link{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+
+}
+.navbar__logo{
+    margin-right: 2rem;
+}
+.navbar__logo > img{
+    width: 62.56px;
+    height: 16.02px;
+}
+.navbar__links__container{
+    display: flex;
+}
+.navbar__signin__btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar__links__container p,
+.navbar__signin p,
+.navbar__menu__container p{
+    color: white;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0px 1rem;
+    cursor: pointer;
+}
+.navbar__signin{
+    display: flex;
+    align-items: center;
+
+}
+.navbar__signin > button{
+    padding: .5rem 1rem;
+    background: #FF4820;
+    border: none;
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px; 
+    outline: none;
+}
+.navbar__menu__container{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+.navbar__toggle__signin{
+    display: flex;
+    justify-content: flex-end;
+    display: none;
+}
+.navbar__toggle__container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    background: var(--color-footer);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+.navbar__toggle__wrapper p{
+    margin: 1rem 0;
+}
+
+@media  screen and (max-width: 1050px) {
+    .navbar__links__container{
+        display: none;
+    }
+    .navbar__menu__container{
+        display: block;
+    }
+    .navbar__container{
+        padding: 1rem 2rem;
+       
+    }
+}
+@media  screen and (max-width: 700px) {
+    .navbar__menu__container {
+        padding: 2rem 4rem;
+    }
+    .navbar__toggle__signin{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar__toggle__signin > button{
+        padding: .5rem;
+    }
+}
+@media  screen and (max-width: 550px) {
+    .navbar__menu__container {
+        padding: 2rem;
+    }
+    .navbar__signin{
+        display: none;
+    }
+    .navbar__toggle__signin{
+        display: block;
+    }
+}
