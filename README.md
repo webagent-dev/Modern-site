@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/github_username/webagent-dev">
-    <img src="https://user-images.githubusercontent.com/78637825/165944544-dca8a96e-6ebc-4364-8673-693fe2e506df.png" alt="Logo" width="80" height="80">
+<!--     <img src="https://user-images.githubusercontent.com/78637825/165944544-dca8a96e-6ebc-4364-8673-693fe2e506df.png" alt="Logo" width="80" height="80"> -->
   </a>
 
 <h3 align="center">agent-website</h3>
@@ -51,11 +51,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+<div>
 <a href="https://github.com/github_username/webagent-dev">
     <img src="https://user-images.githubusercontent.com/78637825/165944544-dca8a96e-6ebc-4364-8673-693fe2e506df.png" alt="live site" width="100%" height="80%">
   </a>
-
+</div>
 short details: `webagent-dev`, `agent-site`, `no-mention`, `webagent24@gmail`,, `portifolio website `
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -69,7 +69,7 @@ short details: `webagent-dev`, `agent-site`, `no-mention`, `webagent24@gmail`,, 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
+<div>
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -169,5 +169,6 @@ Project Link: [https://github.com/webagent-dev/Modern-site]()
 *  []Nodejs Must Be Install On Your Machine To Run This project locally
 * [] You must run  npm install on project run directory
 ```
+  </div>
 <p align="right">(<a href="#top">back to top</a>)</p>
 
