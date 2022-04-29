@@ -1,12 +1,19 @@
 <div align="center">
-<h3 align="center">shoe-shop </h3>
+  <a href="https://github.com/github_username/webagent-dev">
+    <img src="https://user-images.githubusercontent.com/78637825/165944544-dca8a96e-6ebc-4364-8673-693fe2e506df.png" alt="Logo" width="80" height="80">
+  </a>
+
+<h3 align="center">agent-website</h3>
 
   <p align="center">
-      this a modern product page design with Html/Css with a 3d image showcase
+  agent site is a modarn ui design by https://www.arshakir.com with soft and pleasant animations to complex gradients
     <br />
-    <a href="https://shoes-shops.netlify.app/">Live Site</a>
+    <a href="https://github.com/webagent-dev/big-magic-music.git"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://agent-site.netlify.app/">Live Site</a>
     ·
-    <a href="https://github.com/webagent-dev/shoe-shop/issues">Report Bug</a>
+    <a href="https://github.com/webagent-dev/Modern-site/issues">Report Bug</a>
     ·
 
   </p>
@@ -44,19 +51,20 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-    
-  <img src="https://user-images.githubusercontent.com/78637825/165944544-dca8a96e-6ebc-4364-8673-693fe2e506df.png" alt="page-image" width="100%" height="100%" >
-  
-  
-short details: `webagent-dev`, `HTML/CSS`, `webagent24@gmail`,
+
+<a href="https://github.com/github_username/webagent-dev">
+    <img src="https://user-images.githubusercontent.com/78637825/165944544-dca8a96e-6ebc-4364-8673-693fe2e506df.png" alt="live site" width="100%" height="80%">
+  </a>
+
+short details: `webagent-dev`, `agent-site`, `no-mention`, `webagent24@gmail`,, `portifolio website `
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 ### Built With
-* [Html]
-* [Css]
+* [React.js](https://reactjs.org/)
+* [Figma design]( https://www.arshakir.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -69,15 +77,23 @@ This is  how you run the project locally on your machine
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-text editor of your choice e.g VsCode
+you have to get does core package already install in machine
+* nodejs
+  ```sh
+    https://nodejs.org/en/download/
   ```
 
 ### Installation
 
-1.  Clone the repository 
-2.  open with text editor choice 
-3.  open with live-server
-   
+1. Clone the repo
+   ```sh
+  Ask Me wizkenny019@gmail.com
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -86,8 +102,8 @@ text editor of your choice e.g VsCode
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-After run with live server you would have a local version of the live site on your local machine
-_For more examples, please refer to the [Live Site](https://shoes-shops.netlify.app/)
+After Run the above script you show have a local version of the live site on your local machine
+_For more examples, please refer to the [Live Site](https://agent-site.netlify.app)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -96,14 +112,14 @@ _For more examples, please refer to the [Live Site](https://shoes-shops.netlify.
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Smooth scrolling
-- [ ] display cards
-- [ ] transitions
-- [ ]sorting
-- [ ] Shop
-    - [ ] 3d image
+- React functional components and their reusability
+- React file and folder structure
+- Fundamental #CSS properties to master flex & grid
+- Fundamentals of the CSS BEM Model
+- From soft and pleasant animations to complex gradients
+- Perfectly placed media queries for satisfactory responsiveness covering almost all devices
 
-See the [open issues](https://github.com/webagent-dev/shoe-shop/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/webagent-dev/Modern-site/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -137,7 +153,21 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 ## Contact
-webagent24@gmail.com
 
-Project Link: [https://github.com/webagent-dev/shoe-shop]()!
-[-agent-site-netlify-app](https://user-images.githubusercontent.com/78637825/165944544-dca8a96e-6ebc-4364-8673-693fe2e506df.png)
+The Client: BIGMAGICMUSIC
+Email:databyte808@gmail.com
+
+Project Link: [https://github.com/webagent-dev/Modern-site]()
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+*  []Nodejs Must Be Install On Your Machine To Run This project locally
+* [] You must run  npm install on project run directory
+```
+<p align="right">(<a href="#top">back to top</a>)</p>
+
